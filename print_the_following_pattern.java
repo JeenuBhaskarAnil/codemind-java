@@ -5,11 +5,9 @@ class A{
         Scanner x = new Scanner(System.in);
         n= x.nextInt();
         for (i=1;i<=n;i++){
-            for(j=1;j<n-1;j++){
-                System.out.print(j+"");
-            }for (k=n-3;k>0;k--){
-                System.out.print(k+"");
-            }System.out.println("");
-        }
+           for (j=1;j<=n;j++){
+               System.out.print((char)(64+i)+" ");
+           }System.out.println("");
+             }
     }
 }
