@@ -1,16 +1,19 @@
 import java.util.Scanner;
-class P{
+class A{
     public static void main(String args[]){
-       Scanner x=new Scanner(System.in) ;
-       int n=x.nextInt();
-       for(int i=1;i<=n;i++){
-           for(int j=1;j<=n;j++){
-               if (j==i)
-               System.out.print("0");
-               else
-               System.out.print("x");
-        
-           }System.out.println();
-       }
+        int i,j,n,k;
+        Scanner x = new Scanner(System.in);
+        n= x.nextInt();
+        for(i=1;i<n;i++){
+          for(k=1;k<=n;k++){
+                if (k==i || k==1){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }System.out.println("") ;
+        }for (j=1;j<=n;j++){
+            System.out.print("*");
+        }
     }
 }
