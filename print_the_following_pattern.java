@@ -5,12 +5,10 @@ class A{
         Scanner x = new Scanner(System.in);
         n= x.nextInt();
         for (i=1;i<=n;i++){
-            for(j=1;j<=n;j++){
-    if (j==1 || j==n||j==i){
-        System.out.print("* ");
-    }else{
-        System.out.print("  ");
-    }
+            for(j=1;j<n-1;j++){
+                System.out.print(j+"");
+            }for (k=n-3;k>0;k--){
+                System.out.print(k+"");
             }System.out.println("");
         }
     }
