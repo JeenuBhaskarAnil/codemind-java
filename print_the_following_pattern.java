@@ -4,15 +4,12 @@ class A{
         int i,j,n,l,k;
         Scanner x = new Scanner(System.in);
         n= x.nextInt();
-        for(i=1;i<=n;i++){
-            for(j=n;j>i;j--){
-                System.out.print(" ");
-            } 
-            for (k=i-1;k>0;k--){
-                System.out.print(i+"");
-       } for (l=0;l<i;l++){
-                System.out.print(i+"");
-            }System.out.println("");
+        for(i=n;i>=1;i--){
+            for(j=1;j<=i;j++){
+                System.out.print((char)(64+i)+" ");
+                
+                
+                }System.out.println("");
         }
     }
 }
