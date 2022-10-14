@@ -9,9 +9,9 @@ class A{
                 System.out.print(" ");
             } 
             for (k=i-1;k>0;k--){
-                System.out.print(k+"");
+                System.out.print(i+"");
        } for (l=0;l<i;l++){
-                System.out.print(l+"");
+                System.out.print(i+"");
             }System.out.println("");
         }
     }
